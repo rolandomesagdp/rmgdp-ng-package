@@ -7,5 +7,8 @@
     "test": "exit 0"
   },
   "author": "Rolando Mesa inc",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "@rolandomesagdp:registry": "https://npm.pkg.github.com"
+  }
 }
