@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class NgRmgdpService {
 
   constructor() { }
+
+  logMessage(message: string): void {
+    console.log(message);
+  }
 }
