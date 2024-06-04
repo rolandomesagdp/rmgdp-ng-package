@@ -8,6 +8,6 @@ export class NgRmgdpService {
   constructor() { }
 
   logMessage(message: string): void {
-    console.log(message);
+    console.log(`The message to log is: ${message}`);
   }
 }
